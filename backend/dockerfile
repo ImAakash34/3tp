@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL APP="myapp"
+LABEL APP="studentapp"
 LABEL author="akash"
 
 USER root

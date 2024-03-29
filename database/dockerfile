@@ -1,6 +1,6 @@
 FROM mysql
 
-LABEL APP="myapp"
+LABEL APP="studentapp"
 LABEL author="akash"
 
 ENV MYSQL_ROOT_PASSWORD=5321
