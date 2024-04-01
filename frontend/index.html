@@ -1,16 +1,43 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Redirect Button</title>
-</head>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
 <body>
-    <h1>Welcome to Devops registration page</h1>
-<button onclick="window.location.href='http://13.211.227.133:32769/student/'">Click here for registration</button>
-#Change Ip with instance ip 
-#Change port number with backends container ip later before launching frontend dockerfile
- 
+
+<div class="icon-bar">
+  <a class="active" href="http://13.211.227.133:32769/student/"><i class="fa fa-edit"></i></a> 
+  <a href="http://13.211.227.133:32769/student/"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+
 </body>
-</html>
+</html> 
